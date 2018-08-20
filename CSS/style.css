@@ -1,4 +1,12 @@
-
+body {
+	margin: 20px;
+	background-color: black;
+	color: white;
+}
+header #main-title{
+  background-color: #5b7989;
+  text-shadow: 2px 2px 2px #02010a;
+}
 
 
 
