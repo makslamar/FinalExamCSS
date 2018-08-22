@@ -14,18 +14,24 @@ header{
 	background-color: #5b7989;
   height: 10%;
   border-radius: 10px 10px 0px 0px;
-  padding: 3% 0% 3% 3%;
+  padding: 3%;
 }
 
 #main-title{
   text-shadow: 2px 2px 2px #02010a;
 }
-#main-menu {
-	padding: 0% 3% 0% 0%;
+
 }
 #main-menu a{
-	padding: 1%;
+	padding: 2%;
 }
+
+
+
+/**IMAGENES**/
+
+
+
 
 @media screen and (min-width: 900px) {
    .contenedor{
@@ -41,8 +47,11 @@ header{
 	 }
 }
 
+
 @media screen and (max-width: 899px) {
 	.contenedor{
+		display:flex;
+		flex-flow: column nowrap;
 		width: 100%;
 		text-align: center;
 		justify-content: center;
