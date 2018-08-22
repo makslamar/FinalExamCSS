@@ -10,7 +10,12 @@ body {
 	font-family: 'Dancing Script', cursive;
 }
 
-#navbar{
+header{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#main-title{
   background-color: #5b7989;
   text-shadow: 2px 2px 2px #02010a;
   width:97%;
@@ -24,6 +29,7 @@ body {
 
 @media screen and (min-width 900px) {
 
+	 }
 }
 
 @media screen and (max-width 899px) {
