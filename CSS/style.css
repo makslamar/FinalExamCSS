@@ -33,13 +33,36 @@ header{
 #main-image{
 	background-color: #82c3a6;
 	width: 100%;
-  height: 30%;
-  padding: 0%;
-	justify-content: center;
+	height: auto;
+	text-align: center;
+	padding: 1% 0 1% 0;
 }
 
 #main-image img{
-  width: 100%;
+  width: 95%;
+}
+
+.other-images{
+	background-color: #d5c75f;
+	width: 100%;
+	padding: 1% 0 1% 0;
+}
+
+#second-image, #third-image{
+  width:50%;
+	margin: auto;
+	padding: 2% 0 1% 0;
+	text-align: center;
+}
+
+.other-images img, figcaption{
+	width:95%;
+	height:auto;
+	display:block;
+	margin: auto;
+}
+.other-images img{
+  border:1px solid black;
 }
 
 @media screen and (min-width: 900px) {
@@ -54,6 +77,11 @@ header{
 		 align-items: center;
 		 justify-content: space-between;
 	 }
+	 .other-images{
+		 display: flex;
+		 flex-flow: row wrap;
+	 }
+
 }
 
 
@@ -68,7 +96,7 @@ header{
 }
 
 
-/**CSS de ejemplo------------
+/*CSS de ejemplo------------
 body {
 	margin: 20px;
 	background-color: black;
@@ -139,4 +167,4 @@ img{
 		 flex-flow: column wrap;
 	 }
 }
-**/
+*/
