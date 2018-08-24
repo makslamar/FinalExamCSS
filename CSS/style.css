@@ -138,7 +138,7 @@ section, footer{
 	}
 
 
-	.other-images figure{
+	#second-image, #third-image{
 	  width: 100%;
   }
 
@@ -150,7 +150,9 @@ section, footer{
 		display:flex;
 		flex-flow: column nowrap;
 		width: 100%;
-		justify-content: flex-start;
+	}
+	#contact, #terms, #networks, #rights{
+		width: 80%;
 	}
 }
 
