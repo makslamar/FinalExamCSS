@@ -21,9 +21,17 @@ header{
   text-shadow: 2px 2px 2px #02010a;
 }
 
-}
 #main-menu a{
 	padding: 2%;
+	color: white;
+}
+
+.no-underline{
+	text-decoration: none;
+}
+
+.underline{
+	text-decoration: underline;
 }
 
 footer{
@@ -45,6 +53,11 @@ section, footer{
 	color: #02010a;
 }
 
+#networks a{
+	text-decoration: none;
+	color: black;
+}
+
 
 /**IMAGENES**/
 
@@ -52,6 +65,7 @@ section, footer{
 	background-color: #82c3a6;
 	width: 100%;
 	height: auto;
+	box-shadow: 2px #02010a;
 	text-align: center;
 	padding: 1% 0 1% 0;
 }
@@ -82,6 +96,8 @@ section, footer{
 	width:95%;
 	display:block;
 	margin: auto;
+	color: black;
+	font-size: 23px;
 }
 .other-images img{
 	box-shadow: 2px 2px 4px #82c3a6;
@@ -138,8 +154,8 @@ section, footer{
 	}
 
 
-	.other-images figure{
-	  width: 100%;
+	#second-image, #third-image{
+	  width: 95%;
   }
 
   .other-images img{
@@ -150,80 +166,8 @@ section, footer{
 		display:flex;
 		flex-flow: column nowrap;
 		width: 100%;
-		justify-content: flex-start;
+	}
+	#contact, #terms, #networks, #rights{
+		width: 80%;
 	}
 }
-
-
-/*CSS de ejemplo------------
-body {
-	margin: 20px;
-	background-color: black;
-	color: white;
-	font-family: Raleway;
-}
-
-header h1{
-	text-align: center;
-}
-
-#contenido {
-	display: flex;
-	flex-direction: column;
-}
-
-#contenido > h1 {
-	padding: 10px;
-	text-align: center;
-}
-
-footer {
-	margin-top: 10px;
-	padding-top: 10px;
-	text-align: center;
-}
-
-.contenedor {
-	display: flex;
-	flex-direction: row;
-}
-
-.contenedor > div {
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
-	width: 50%;
-}
-
-img{
-	border: 2px solid white;
-	width: 200px;
-}
-#imagen1{
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-
-#imagen2{
-	-webkit-filter: blur(10px);
-	filter: blur(10px);
-}
-
-#imagen3{
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
-	transform: rotateZ(-45deg);
-}
-
-#imagen4{
-	-webkit-filter: sepia(90%);
-	filter: sepia(90%);
-}
-
-@media screen and (max-width: 600px){
-	 .contenedor{
-		 display:flex;
-		 flex-flow: column wrap;
-	 }
-}
-*/

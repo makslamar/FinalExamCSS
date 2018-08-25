@@ -21,19 +21,23 @@ header{
   text-shadow: 2px 2px 2px #02010a;
 }
 
+#main-menu{
+	display: flex;
+	flex-flow: row nowrap;
 }
+
 #main-menu a{
-	padding: 2%;
+	width: 30%;
+	padding: 5%;
+	color: white;
 }
 
 .no-underline{
 	text-decoration: none;
-  color: white;
 }
 
 .underline{
 	text-decoration: underline;
-	color: white;
 }
 
 footer{
@@ -92,13 +96,21 @@ section, footer{
   border:1px solid black;
 }
 
-#third-image:hover{
-  transform: rotate(-10deg);
+#third-image, #five-image, #seven-image{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
-#second-image:hover{
-  transform: translate(20px,-5px);
+#second-image{
+  -webkit-filter: blur(10px);
+	filter: blur(10px);
 }
+
+#four-image{
+  -webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}
+
 
 #networks img{
 	width: 15%;
@@ -133,6 +145,13 @@ section, footer{
 		width: 100%;
 		justify-content: center;
 	}
+
+	header{
+		display: flex;
+		flex-flow: column;
+		text-align: center;
+	}
+
   .other-images{
 		display: flex;
 		flex-flow: column nowrap;

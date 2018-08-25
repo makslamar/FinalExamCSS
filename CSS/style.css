@@ -21,9 +21,15 @@ header{
   text-shadow: 2px 2px 2px #02010a;
 }
 
+#main-menu{
+	display: flex;
+	flex-flow: row nowrap;
 }
+
 #main-menu a{
-	padding: 2%;
+	width: 30%;
+	padding: 5%;
+	color: white;
 }
 
 .no-underline{
@@ -145,6 +151,12 @@ section, footer{
 		width: 100%;
 		justify-content: center;
 	}
+
+	header{
+		display: flex;
+		flex-flow: column;
+		text-align: center;
+	}
   .other-images{
 		display: flex;
 		flex-flow: column nowrap;
@@ -171,77 +183,3 @@ section, footer{
 		width: 80%;
 	}
 }
-
-
-/*CSS de ejemplo------------
-body {
-	margin: 20px;
-	background-color: black;
-	color: white;
-	font-family: Raleway;
-}
-
-header h1{
-	text-align: center;
-}
-
-#contenido {
-	display: flex;
-	flex-direction: column;
-}
-
-#contenido > h1 {
-	padding: 10px;
-	text-align: center;
-}
-
-footer {
-	margin-top: 10px;
-	padding-top: 10px;
-	text-align: center;
-}
-
-.contenedor {
-	display: flex;
-	flex-direction: row;
-}
-
-.contenedor > div {
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
-	width: 50%;
-}
-
-img{
-	border: 2px solid white;
-	width: 200px;
-}
-#imagen1{
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-
-#imagen2{
-	-webkit-filter: blur(10px);
-	filter: blur(10px);
-}
-
-#imagen3{
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
-	transform: rotateZ(-45deg);
-}
-
-#imagen4{
-	-webkit-filter: sepia(90%);
-	filter: sepia(90%);
-}
-
-@media screen and (max-width: 600px){
-	 .contenedor{
-		 display:flex;
-		 flex-flow: column wrap;
-	 }
-}
-*/
