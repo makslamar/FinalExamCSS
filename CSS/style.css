@@ -8,6 +8,7 @@ body {
 	background-color: #02010a;
 	color: white;
 	font-family: 'Dancing Script';
+	animation: slide 1.5s;
 }
 
 header{
@@ -106,12 +107,12 @@ section, footer{
 	font-size: 23px;
 }
 .other-images img{
-	box-shadow: 2px 2px 4px #82c3a6;
+	box-shadow: 2px 2px 4px #02010a;
   border:1px solid black;
 }
 
 #third-image:hover{
-  transform: rotate(-10deg);
+  transform: rotate(10deg);
 }
 
 #second-image:hover{
@@ -122,6 +123,11 @@ section, footer{
 	width: 15%;
 }
 
+@-webkit-keyframes slide {
+	0%{margin-top: 150%;}
+	60%{margin-top: -5%;}
+	100%{margin-top: 0%;}
+}
 
 
 @media screen and (min-width: 900px) {
