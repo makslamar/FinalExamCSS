@@ -4,7 +4,7 @@
 }
 
 body {
-	margin: 5px;
+	margin: 1.5px;
 	background-color: #02010a;
 	color: white;
 	font-family: 'Dancing Script';
@@ -79,6 +79,9 @@ section, footer{
 
 #main-image img{
   width: 95%;
+	display:block;
+	margin: auto;
+	box-shadow: 2px 2px 4px #02010a;
 }
 
 .other-images{
@@ -91,7 +94,7 @@ section, footer{
 }
 
 #second-image, #third-image{
-  width:50%;
+  width:47%;
 	margin: auto;
 	padding: 2% 0 1% 0;
 	text-align: center;
