@@ -26,6 +26,14 @@ header{
 	padding: 2%;
 }
 
+.no-underline{
+	text-decoration: none;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
 footer{
 	background-color: #C6d5c5;
   min-height: 10%;
@@ -45,6 +53,11 @@ section, footer{
 	color: #02010a;
 }
 
+#networks a{
+	text-decoration: none;
+	color: black;
+}
+
 
 /**IMAGENES**/
 
@@ -52,6 +65,7 @@ section, footer{
 	background-color: #82c3a6;
 	width: 100%;
 	height: auto;
+	box-shadow: 2px #02010a;
 	text-align: center;
 	padding: 1% 0 1% 0;
 }
@@ -82,6 +96,8 @@ section, footer{
 	width:95%;
 	display:block;
 	margin: auto;
+	color: black;
+	font-size: 23px;
 }
 .other-images img{
 	box-shadow: 2px 2px 4px #82c3a6;
@@ -139,7 +155,7 @@ section, footer{
 
 
 	#second-image, #third-image{
-	  width: 100%;
+	  width: 95%;
   }
 
   .other-images img{
